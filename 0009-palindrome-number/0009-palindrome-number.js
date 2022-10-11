@@ -7,8 +7,7 @@ var isPalindrome = function(x) {
     let xStr = x.toString()
     
     for (let i of xStr){
-        reversedStr = i + reversedStr // adds number to empty string than add from left
-        console.log(reversedStr) // for checking the resevered string
+        reversedStr = i + reversedStr 
     }
     return (reversedStr === xStr)
 };
