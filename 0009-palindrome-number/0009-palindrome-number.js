@@ -9,5 +9,5 @@ var isPalindrome = function(x) {
     for (let i of xStr){
         reversedStr = i + reversedStr 
     }
-    return (reversedStr === xStr)
+    return (reversedStr == xStr)
 };
